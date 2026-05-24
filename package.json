@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "fetch-data": "python3 scripts/fetch_statsbomb_subset.py",
     "start": "python3 -m http.server 4173",
     "analyze": "python3 scripts/score_operating_data.py"
   }

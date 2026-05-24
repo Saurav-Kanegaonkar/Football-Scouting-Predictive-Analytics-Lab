@@ -6,49 +6,97 @@
   <title>Football Scouting Predictive Analytics Lab</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#7c3aed;--bg:#f7f2ff">
+<body>
   <main class="shell">
     <header class="hero">
       <div>
-        <p class="eyebrow">Experiment Lab / football scouting predictive analytics</p>
+        <p class="eyebrow">MLS event data scouting lab</p>
         <h1>Football Scouting Predictive Analytics Lab</h1>
+        <p class="lede">A public-event-data pipeline that turns player actions into role-normalized review priorities, model diagnostics, and stakeholder-ready scouting briefs.</p>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy player prospect-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <section class="hero-panel" aria-label="Top model recommendation">
+        <span>Top review target</span>
+        <strong id="topPlayer">Loading</strong>
+        <p id="topContext">Building the scouting queue.</p>
+      </section>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>player prospects</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <section class="metric-grid" id="metricGrid" aria-label="Portfolio metrics"></section>
+
+    <nav class="tabs" aria-label="Artifact views">
+      <button class="active" type="button" data-view="scouting">Scouting board</button>
+      <button type="button" data-view="model">Model lab</button>
+      <button type="button" data-view="briefs">Briefs and quality</button>
+    </nav>
+
+    <section class="view active" id="scoutingView" aria-label="Scouting board">
+      <div class="surface-header">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>Player Review Queue</h2>
+        </div>
+        <select id="roleFilter" aria-label="Filter by role">
+          <option value="All">All roles</option>
+        </select>
+      </div>
+      <div class="board-layout">
+        <section class="queue-panel">
+          <table>
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Role</th>
+                <th>Priority</th>
+                <th>Model</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="playerRows"></tbody>
+          </table>
+        </section>
+        <aside class="detail-panel" id="playerDetail"></aside>
+      </div>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Hypothesis</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>player prospect</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Power risk</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Experiment readout</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
+
+    <section class="view" id="modelView" aria-label="Model lab">
+      <div class="surface-header">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2>Predictive Model Lab</h2>
+        </div>
+      </div>
+      <div class="model-grid">
+        <section class="panel">
+          <h3>Holdout Diagnostics</h3>
+          <div class="diagnostics" id="diagnostics"></div>
+        </section>
+        <section class="panel">
+          <h3>Feature Weighting</h3>
+          <div class="importance" id="importance"></div>
+        </section>
+        <section class="panel wide">
+          <h3>Role Distribution</h3>
+          <div class="role-bars" id="roleBars"></div>
+        </section>
+      </div>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value player prospect segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="view" id="briefsView" aria-label="Briefs and data quality">
+      <div class="surface-header">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Agentic Briefs And Data Quality</h2>
+        </div>
+      </div>
+      <div class="brief-grid">
+        <section class="brief-list" id="briefList"></section>
+        <section class="quality-panel">
+          <h3>Data Checks</h3>
+          <div id="qualityChecks"></div>
+        </section>
+      </div>
     </section>
   </main>
+  <script src="src/app.js"></script>
 </body>
 </html>

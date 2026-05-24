@@ -1,0 +1,5 @@
+check_id,check,status,result,owner
+DQ-001,Match event files loaded,Pass,"6 matches, 21,786 event rows",Data analyst
+DQ-002,Lineup player coverage,Pass,186 player-match rows with event activity,Football analytics
+DQ-003,Position completeness,Pass,0.0% missing primary position,Scouting ops
+DQ-004,Small-sample review flag,Watch,30 player-match rows below 30 minutes,Recruitment analyst

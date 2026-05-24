@@ -1,0 +1,64 @@
+player_id,player_name,team_name,country,role,position,squad_phase,matches,minutes,review_priority,model_probability,confidence,data_risk,next_action,contribution_index,shots_p90,xg_p90,progressive_passes_p90,progressive_carries_p90,pressures_p90,defensive_actions_p90,turnovers_p90
+23828,Kamal Miller,Inter Miami,Canada,Defender,Left Center Back,international regular,6,576.0,249.8,0.726,0.93,low,Scout video packet,32.26,0.0,0.0,27.03,4.69,5.78,10.16,1.25
+12788,Ilie Sánchez,LAFC,Spain,Midfielder,Center Defensive Midfield,international review,1,80.7,246.1,0.968,0.655,watch,Collect more minutes,32.01,0.0,0.0,23.42,2.23,18.96,12.27,2.23
+28675,Álvaro Martín Barreal,Cincinnati,Argentina,Defender,Left Wing Back,international review,1,80.4,242.9,0.644,0.654,watch,Collect more minutes,34.57,2.24,0.38,21.27,6.72,7.84,10.08,1.12
+43065,Daniel Edelman,New York Red Bulls,United States of America,Midfielder,Center Defensive Midfield,domestic depth,1,96.0,240.9,0.919,0.68,watch,Collect more minutes,30.79,0.94,0.03,19.69,2.81,16.88,13.12,0.0
+42545,Mateusz Bogusz,LAFC,Poland,Midfielder,Left Center Midfield,international review,1,96.0,238.9,0.603,0.68,watch,Collect more minutes,35.27,1.88,0.05,17.81,9.38,20.62,10.31,4.69
+7190,Denis Bouanga,LAFC,Gabon,Attacker,Left Wing,international review,1,96.0,233.2,0.711,0.68,watch,Collect more minutes,33.14,6.56,0.93,5.62,8.44,13.12,10.31,4.69
+29138,Andrés Reyes,New York Red Bulls,Colombia,Defender,Right Center Back,international review,1,96.0,230.8,0.873,0.68,watch,Collect more minutes,30.42,1.88,0.2,15.94,6.56,16.88,10.31,2.81
+366752,Tomás Agustín Avilés Mancilla,Inter Miami,Chile,Defender,Right Center Back,international regular,6,504.0,227.8,0.709,0.93,low,Scout video packet,28.92,0.71,0.05,21.25,3.93,15.18,7.68,2.14
+18618,Sergiy Kryvtsov,Inter Miami,Ukraine,Defender,Center Back,international review,3,286.9,225.7,0.771,0.93,low,Scout video packet,28.7,0.0,0.0,20.71,7.84,10.67,6.59,2.51
+5203,Sergio Busquets,Inter Miami,Spain,Midfielder,Center Defensive Midfield,international regular,6,516.3,224.9,0.82,0.93,low,Scout video packet,27.86,0.17,0.0,19.87,2.44,17.61,10.11,4.18
+389473,Andrew Privett,Charlotte,United States of America,Defender,Left Center Back,domestic depth,1,96.0,213.8,0.775,0.68,watch,Collect more minutes,27.65,0.94,0.02,17.81,2.81,20.62,8.44,0.0
+23858,Sean Nealis,New York Red Bulls,United States of America,Defender,Left Center Back,domestic depth,1,96.0,211.8,0.944,0.68,watch,Collect more minutes,25.81,0.94,0.05,15.0,4.69,15.0,9.38,0.94
+36430,Dixon Arroyo,Inter Miami,Ecuador,Midfielder,Right Center Midfield,international review,5,216.8,209.6,0.752,0.881,medium,Scout video packet,27.3,0.42,0.06,18.26,1.66,18.26,11.62,4.15
+5211,Jordi Alba,Inter Miami,Spain,Defender,Left Back,international regular,5,336.0,207.2,0.613,0.93,low,Scout video packet,26.37,0.27,0.13,15.0,6.7,8.04,9.64,1.34
+16550,Jere Juhani Uronen,Charlotte,Finland,Defender,Left Back,international review,1,96.0,202.7,0.659,0.68,watch,Collect more minutes,27.28,0.94,0.01,12.19,1.88,15.0,15.0,0.94
+45029,Cameron Harper,New York Red Bulls,United States of America,Defender,Right Back,domestic depth,1,83.4,202.1,0.821,0.659,watch,Collect more minutes,26.27,0.0,0.0,11.87,10.79,6.47,11.87,3.24
+222155,Diego Alexander Gómez Amarilla,Inter Miami,Paraguay,Attacker,Left Wing,international regular,4,334.1,202.0,0.737,0.93,low,Scout video packet,25.58,1.08,0.12,11.31,3.5,26.67,8.08,5.93
+5503,Lionel Messi,Inter Miami,Argentina,Attacker,Right Wing,international regular,6,402.7,201.0,0.383,0.93,low,Scout video packet,28.91,4.47,0.55,16.76,7.6,6.26,3.8,5.81
+226488,Kobe Franklin,Toronto FC,Canada,Defender,Right Back,international review,1,96.0,200.1,0.82,0.68,watch,Collect more minutes,25.69,0.0,0.0,20.62,2.81,9.38,10.31,2.81
+50496,Obinna Nwobodo,Cincinnati,Nigeria,Midfielder,Right Defensive Midfield,international review,1,96.0,197.2,0.512,0.68,watch,Collect more minutes,29.07,0.0,0.0,10.31,5.62,25.31,13.12,4.69
+29946,Robert Taylor,Inter Miami,Finland,Defender,Right Back,international review,4,209.6,195.9,0.648,0.869,medium,Scout video packet,25.64,2.15,0.16,13.74,7.3,7.73,9.45,2.58
+13371,Luciano Acosta,Cincinnati,Argentina,Midfielder,Center Attacking Midfield,international review,1,87.5,195.2,0.687,0.666,watch,Collect more minutes,28.98,1.03,0.03,17.48,8.22,16.45,10.28,11.31
+67374,Adilson Malanda,Charlotte,France,Defender,Right Center Back,international review,1,96.0,192.3,0.78,0.68,watch,Collect more minutes,24.47,0.0,0.0,15.0,1.88,13.12,13.12,1.88
+12765,Michael Bradley,Toronto FC,United States of America,Defender,Left Center Back,domestic depth,1,96.0,188.9,0.596,0.68,watch,Collect more minutes,25.27,0.0,0.0,16.88,2.81,9.38,12.19,0.0
+12757,Aaron Long,LAFC,United States of America,Defender,Right Center Back,domestic depth,1,96.0,188.2,0.838,0.68,watch,Collect more minutes,23.43,0.94,0.07,16.88,2.81,13.12,7.5,2.81
+225210,David Ruiz,Inter Miami,United States of America,Midfielder,Right Center Midfield,domestic depth,4,205.1,183.5,0.864,0.862,medium,Scout video packet,22.61,0.88,0.02,10.09,5.7,21.94,7.9,7.02
+12569,Ryan Hollingshead,LAFC,United States of America,Defender,Left Back,domestic depth,1,96.0,183.5,0.587,0.68,watch,Collect more minutes,25.03,2.81,0.16,15.0,2.81,12.19,7.5,1.88
+36805,John Tolkin,New York Red Bulls,United States of America,Defender,Left Back,domestic depth,1,96.0,180.6,0.705,0.68,watch,Collect more minutes,23.55,0.94,0.07,14.06,4.69,13.12,8.44,2.81
+225209,Benjamin Cremaschi,Inter Miami,United States of America,Midfielder,Left Center Midfield,domestic regular,6,324.6,175.8,0.644,0.93,low,Scout video packet,22.13,1.39,0.12,8.87,5.54,21.07,6.93,5.82
+12715,Brandt Bronico,Charlotte,United States of America,Midfielder,Left Center Midfield,domestic depth,1,96.0,175.5,0.252,0.68,watch,Collect more minutes,28.39,0.94,0.05,6.56,4.69,30.0,13.12,5.62
+3583,Ashley Westwood,Charlotte,England,Midfielder,Center Defensive Midfield,international review,1,96.0,174.3,0.6,0.68,watch,Collect more minutes,23.3,0.0,0.0,16.88,1.88,11.25,10.31,1.88
+13823,Nick Hagglund,Cincinnati,United States of America,Defender,Right Center Back,domestic depth,1,96.0,174.0,0.633,0.68,watch,Collect more minutes,22.31,0.0,0.0,16.88,2.81,13.12,5.62,0.0
+205682,Noah Allen,Inter Miami,United States of America,Defender,Left Back,domestic regular,5,336.0,173.8,0.52,0.93,low,Scout video packet,21.69,0.54,0.01,9.11,5.89,13.66,7.77,1.61
+7848,Matt Miazga,Cincinnati,United States of America,Defender,Center Back,domestic depth,1,96.0,171.8,0.899,0.68,watch,Collect more minutes,19.67,1.88,0.15,6.56,0.94,13.12,13.12,1.88
+32878,Facundo Farías,Inter Miami,Argentina,Midfielder,Center Attacking Midfield,international regular,5,388.2,169.8,0.432,0.93,low,Scout video packet,23.16,2.32,0.14,11.13,6.72,16.0,6.03,6.26
+12769,Daniel Lovitz,Nashville SC,United States of America,Defender,Left Back,domestic depth,1,96.0,164.4,0.605,0.68,watch,Collect more minutes,20.95,0.0,0.0,16.88,2.81,7.5,6.56,0.0
+132979,Carlos Joaquim Dos Santos,Inter Miami,United States of America,Goalkeeper,Goalkeeper,domestic depth,1,96.0,163.5,0.502,0.68,watch,Collect more minutes,29.86,0.0,0.0,34.69,4.69,0.0,2.81,0.0
+23304,Luquinhas,New York Red Bulls,Brazil,Midfielder,Left Midfield,international review,1,96.0,159.9,0.421,0.68,watch,Collect more minutes,24.18,1.88,0.05,3.75,12.19,15.0,10.31,6.56
+3833,Nathan Byrne,Charlotte,England,Defender,Right Back,international review,1,96.0,159.4,0.891,0.68,watch,Collect more minutes,17.91,0.0,0.0,13.12,1.88,11.25,6.56,2.81
+5696,Santiago Arias,Cincinnati,Colombia,Defender,Right Wing Back,international review,1,96.0,158.5,0.672,0.68,watch,Collect more minutes,19.5,0.94,0.06,12.19,3.75,11.25,5.62,0.94
+7777,Federico Bernardeschi,Toronto FC,Italy,Attacker,Right Wing,international review,1,96.0,152.2,0.39,0.68,watch,Collect more minutes,22.33,1.88,0.06,9.38,9.38,12.19,5.62,3.75
+41824,Leonardo Campana,Inter Miami,Ecuador,Attacker,Center Forward,international review,5,235.4,151.3,0.566,0.912,medium,Scout video packet,19.08,2.68,0.36,3.06,1.91,22.18,6.88,4.21
+34007,Brian Anunga,Nashville SC,Cameroon,Midfielder,Left Defensive Midfield,international review,1,96.0,151.2,0.313,0.68,watch,Collect more minutes,22.67,0.0,0.0,9.38,2.81,21.56,9.38,2.81
+17299,Brandon Vázquez,Cincinnati,United States of America,Attacker,Right Center Forward,domestic depth,1,87.3,149.5,0.79,0.666,watch,Collect more minutes,18.41,2.06,0.32,5.15,1.03,14.43,9.28,6.18
+210218,Ian Murphy,Cincinnati,United States of America,Defender,Left Center Back,domestic depth,1,96.0,147.8,0.514,0.68,watch,Collect more minutes,19.64,0.0,0.0,11.25,4.69,17.81,3.75,1.88
+23645,Sigurd Rosted,Toronto FC,Norway,Defender,Right Center Back,international review,1,96.0,147.7,0.644,0.68,watch,Collect more minutes,17.95,0.0,0.0,9.38,0.94,12.19,10.31,0.94
+7037,Lorenzo Insigne,Toronto FC,Italy,Attacker,Left Wing,international review,1,96.0,140.8,0.65,0.68,watch,Collect more minutes,19.9,3.75,0.29,8.44,8.44,7.5,6.56,11.25
+129291,Lukas MacNaughton,Nashville SC,Canada,Defender,Right Center Back,international review,1,96.0,139.7,0.696,0.68,watch,Collect more minutes,16.31,0.0,0.0,10.31,0.94,6.56,10.31,1.88
+3658,DeAndre Yedlin,Inter Miami,United States of America,Defender,Right Back,domestic regular,6,495.3,139.1,0.382,0.93,low,Scout video packet,16.96,0.18,0.01,6.54,3.09,11.26,8.18,1.64
+12770,Jonathan Osorio,Toronto FC,Canada,Midfielder,Left Center Midfield,international review,1,96.0,134.6,0.262,0.68,watch,Collect more minutes,19.78,0.0,0.0,7.5,4.69,17.81,7.5,0.94
+28397,Kristijan Kahlina,Charlotte,Croatia,Goalkeeper,Goalkeeper,international review,1,96.0,119.0,0.362,0.68,watch,Collect more minutes,21.52,0.0,0.0,28.12,0.0,0.0,2.81,0.0
+12356,Fafà Picault,Nashville SC,Haiti,Attacker,Left Center Forward,international review,1,83.9,115.4,0.237,0.66,watch,Collect more minutes,18.22,0.0,0.0,6.44,1.07,19.31,8.58,5.36
+6806,Shaq Moore,Nashville SC,United States of America,Defender,Right Back,domestic depth,1,96.0,112.4,0.447,0.68,watch,Collect more minutes,13.97,0.0,0.0,7.5,0.94,15.0,4.69,0.94
+44705,Elliot Panicco,Nashville SC,United States of America,Goalkeeper,Goalkeeper,domestic depth,1,96.0,111.4,0.381,0.68,watch,Collect more minutes,19.64,0.0,0.0,21.56,1.88,0.0,4.69,0.0
+90379,Enzo Nahuel Copetti,Charlotte,Argentina,Attacker,Center Forward,international review,1,88.1,108.4,0.697,0.667,watch,Collect more minutes,12.92,1.02,0.06,7.15,2.04,16.34,4.08,8.17
+5560,Carlos Vela,LAFC,Mexico,Attacker,Right Wing,international review,1,96.0,106.9,0.557,0.68,watch,Collect more minutes,12.72,3.75,0.18,5.62,0.94,8.44,6.56,3.75
+42373,Drake Callender,Inter Miami,United States of America,Goalkeeper,Goalkeeper,domestic regular,5,480.0,105.2,0.31,0.93,low,Scout video packet,16.5,0.0,0.0,18.56,0.19,0.19,5.06,0.0
+42894,Jack Maher,Nashville SC,United States of America,Defender,Left Center Back,domestic depth,1,96.0,102.2,0.498,0.68,watch,Collect more minutes,11.96,0.94,0.12,6.56,0.0,6.56,6.56,1.88
+224799,Roman Celentano,Cincinnati,United States of America,Goalkeeper,Goalkeeper,domestic depth,1,96.0,94.7,0.285,0.68,watch,Collect more minutes,16.97,0.0,0.0,22.5,0.0,0.0,1.88,0.0
+24611,Carlos Coronel,New York Red Bulls,Brazil,Goalkeeper,Goalkeeper,international review,1,96.0,89.1,0.291,0.68,watch,Collect more minutes,15.66,0.0,0.0,17.81,0.94,0.0,3.75,0.0
+12619,Josef Martínez,Inter Miami,Venezuela (Bolivarian Republic),Attacker,Center Forward,international review,3,209.9,84.9,0.349,0.87,medium,Analyst review,9.69,2.14,0.22,1.72,2.14,6.43,4.29,2.57
+35393,Tomás Romero,Toronto FC,El Salvador,Goalkeeper,Goalkeeper,international review,1,96.0,83.3,0.036,0.68,watch,Collect more minutes,17.12,0.0,0.0,17.81,2.81,0.0,0.0,0.0
+21455,John McCarthy,LAFC,United States of America,Goalkeeper,Goalkeeper,domestic depth,1,96.0,57.4,0.192,0.68,watch,Collect more minutes,9.7,0.0,0.0,11.25,0.0,0.0,2.81,0.0

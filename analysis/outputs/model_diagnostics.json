@@ -1,0 +1,87 @@
+{
+  "source": "StatsBomb Open Data MLS 2023",
+  "competition_id": 44,
+  "season_id": 107,
+  "matches": 6,
+  "event_rows": 21786,
+  "player_match_rows": 186,
+  "modeled_rows": 68,
+  "player_shortlist_rows": 63,
+  "target_definition": "Next available appearance contribution index above role median.",
+  "role_medians": {
+    "Defender": 25.146,
+    "Midfielder": 24.364,
+    "Attacker": 19.212,
+    "Goalkeeper": 17.044
+  },
+  "holdout_metrics": {
+    "rows": 14,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 0.714,
+    "brier": 0.414,
+    "positive_rate": 0.5
+  },
+  "feature_importance": [
+    {
+      "feature": "duels_p90",
+      "weight": 1.364,
+      "direction": "positive"
+    },
+    {
+      "feature": "dribble_success_rate",
+      "weight": -0.93,
+      "direction": "negative"
+    },
+    {
+      "feature": "defensive_actions_p90",
+      "weight": 0.861,
+      "direction": "positive"
+    },
+    {
+      "feature": "turnovers_p90",
+      "weight": 0.649,
+      "direction": "positive"
+    },
+    {
+      "feature": "progressive_carries_p90",
+      "weight": 0.461,
+      "direction": "positive"
+    },
+    {
+      "feature": "progressive_passes_p90",
+      "weight": 0.456,
+      "direction": "positive"
+    },
+    {
+      "feature": "recoveries_p90",
+      "weight": -0.454,
+      "direction": "negative"
+    },
+    {
+      "feature": "xg_p90",
+      "weight": 0.414,
+      "direction": "positive"
+    },
+    {
+      "feature": "pressures_p90",
+      "weight": -0.365,
+      "direction": "negative"
+    },
+    {
+      "feature": "carries_p90",
+      "weight": -0.342,
+      "direction": "negative"
+    },
+    {
+      "feature": "shots_p90",
+      "weight": 0.051,
+      "direction": "positive"
+    },
+    {
+      "feature": "passes_p90",
+      "weight": 0.038,
+      "direction": "positive"
+    }
+  ]
+}
